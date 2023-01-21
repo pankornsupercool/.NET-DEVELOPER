@@ -16,7 +16,7 @@ namespace Implementation
         {
             get
             {
-                return $"{Id}, {Firstname}, {Lastname}, {City}";
+                return $"{Id},{Firstname},{Lastname},{City}";
             }
         }
 
@@ -25,7 +25,7 @@ namespace Implementation
     public class Table
     {
         public string TableName { get; set; }
-        public string FullInfo
+        public string TableInfo
         {
             get
             {
